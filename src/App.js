@@ -51,6 +51,7 @@ import AboutQuran from "./Pages/AboutQuran/AboutQuran";
 function App() {
   const { writeClase ,audioClass, audioScource, } = useMainContext();
   return (
+    
     <div className={writeClase === true ? "app hidden" : "app"}>
       <Router>
         <Header />
